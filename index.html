@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>AI UI Component Generator</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <h3 class="navbar__logo">AI UI Generator</h3>
+        <button class="navbar__button" id="themeToggler"><i class='bx bx-sun'></i></button>
+    </nav>
+
+    <header class="header">
+        <div class="header__title">
+            <h1>UI Component Generator</h1>
+            <h2>Generate UI components with AI</h2>
+        </div>
+        <div class="suggests">
+            <div class="suggests__item">
+                <p class="suggests__item-text">
+                    Create a responsive navbar with dropdown menu
+                </p>
+                <div class="suggests__item-icon">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </div>
+            <div class="suggests__item">
+                <p class="suggests__item-text">
+                    Design a pricing table with 3 tiers
+                </p>
+                <div class="suggests__item-icon">
+                    <i class='bx bx-dollar'></i>
+                </div>
+            </div>
+            <div class="suggests__item">
+                <p class="suggests__item-text">
+                    Create a contact form with validation
+                </p>
+                <div class="suggests__item-icon">
+                    <i class='bx bx-envelope'></i>
+                </div>
+            </div>
+            <div class="suggests__item">
+                <p class="suggests__item-text">
+                    Build a testimonial carousel slider
+                </p>
+                <div class="suggests__item-icon">
+                    <i class='bx bx-comment-detail'></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="chats"></section>
+
+    <section class="prompt">
+        <form action="#" class="prompt__form" novalidate>
+            <div class="prompt__framework-selector">
+                <label for="frameworkSelector">Select Framework:</label>
+                <select id="frameworkSelector" class="prompt__framework-dropdown">
+                    <option value="tailwind">Tailwind CSS</option>
+                    <option value="bootstrap">Bootstrap 5</option>
+                    <option value="mui">Material UI</option>
+                </select>
+            </div>
+            <div class="prompt__input-wrapper">
+                <input type="text" placeholder="Describe the UI component you want..." class="prompt__form-input" required>
+                <button class="prompt__form-button" id="sendButton">
+                    <i class='bx bx-send'></i>
+                </button>
+                <button class="prompt__form-button" id="deleteButton">
+                    <i class='bx bx-trash'></i>
+                </button>
+            </div>
+        </form>
+        <p class="prompt__disclaim">
+            Generated components may require additional customization or fixes. Always review the code before using it in production.
+        </p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
