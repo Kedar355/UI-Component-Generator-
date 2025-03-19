@@ -12,11 +12,6 @@
 - 🔄 **Real-Time Preview**: See your components come to life as you describe them
 - 🔧 **Customization Options**: Fine-tune the generated components to match your needs
 
-## 📋 Prerequisites
-
-- Node.js 16.x or higher
-- NPM or Yarn
-
 ## 🚀 Getting Started
 
 1. **Clone the repository**
@@ -26,40 +21,11 @@ git clone https://github.com/Kedar355/UI-Component-Generator-.git
 cd UI-Component-Generator-
 ```
 
-2. **Environment Setup**
 
-Copy the example environment file and add your API key:
+2. **Add your OpenAI api on the 15th line of script.js**
 
-```bash
-cp .env.example .env
-```
-
-Edit the `.env` file and add your OpenAI API key:
-
-```
-OPENAI_API_KEY=your-api-key-here
-```
-
-3. **Install dependencies**
-
-```bash
-npm install
-# or
-yarn install
-```
-
-4. **Start the development server**
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-5. **Open your browser**
-
-Navigate to http://localhost:5173 to start using the UI Component Generator!
-
+3. **Run the HTML file Directly with Live Server**
+ 
 ## 🧠 How It Works
 
 1. 🖊️ **Describe Your Component**: Enter a detailed description of the UI component you want to create
