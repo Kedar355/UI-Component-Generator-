@@ -3,7 +3,7 @@
 > Generate beautiful UI components with AI in seconds ✨
 
 <div align="center">
-  <img src="./assests/ss.png" width="500" alt="coding">
+  <img src="./assets/ss.png" width="500" alt="coding">
 </div>
 
 ## 🌟 Features
